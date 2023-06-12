@@ -1,0 +1,132 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.container{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0.9%;
+    background-image: linear-gradient(rgb(99, 188, 247),rgb(9, 1, 54));
+}
+
+.blur{
+    opacity: 0.2;
+}
+textarea{
+    width: 90%;
+    height: 250px;
+    /* padding-bottom: 15%; */
+    font-size: x-large;
+    background-color: rgba(71, 164, 245, 0);
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    
+}
+
+textarea:hover{
+    box-shadow: 0px 8px 40px lightblue;
+}
+
+textarea:focus{
+    box-shadow: 0px 8px 40px lightblue;
+    border-color: white;
+}
+button{
+    padding: 10px;
+    background-color: rgba(71, 164, 245, 0);
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    font-size: larger;
+}
+
+button:hover{
+    box-shadow: 0px 8px 40px lightblue;
+}
+
+button:focus{
+    box-shadow: 0px 8px 40px lightblue;
+    background-color: rgba(10, 226, 197, 0.808);
+    color: black;
+}
+#enter{
+    margin: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#spacebar{
+    margin: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#backspace{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.display{
+    position: fixed;
+    left: 96%;
+    top: 20%;
+}
+
+.show{
+    display: block;
+}
+
+.display_history{
+    display: none;
+    border: solid 1px lightblue;
+    position: absolute;
+    top: 15%;
+    left: 15.5%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    background-image:url(./images/logo-full-palli-color-cropped.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 70%;
+    width: 70%;
+}
+th{
+    border: solid 1px;
+}
+
+.close_display{
+    color: red;
+    border-color: tomato;
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    font-size: xx-large;
+}
+
+span{
+    padding: 3px;
+    background-color: rgba(71, 164, 245, 0);
+    border-radius: 5px;
+    border: solid 1px white;
+    color: white;
+    font-size: larger;
+
+
+}
+
+span:hover{
+    box-shadow: 0px 8px 40px lightblue;
+}
+
+span:focus{
+    box-shadow: 0px 8px 40px lightblue;
+    background-color: rgba(10, 226, 197, 0.808);
+    color: black;
+}

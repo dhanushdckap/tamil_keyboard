@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamil online keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message_area" id="message_area">
+            <form action="index.php" method="post">
+                <textarea name="text_area" id="text_area"></textarea>
+                <br>
+                <button name="enter" id="enter">Enter</button>
+            </form>
+           
+        </div>
+        <br>
+        <div class="keyboard_container" id="keyboard_container">
+            <div class="vowels" id="vowels">
+                <button class="display" id="display">=</button>
+                <button id="key1">அ</button>
+                <button id="key1">ஆ</button>
+                <button id="key1">இ</button>
+                <button id="key1">ஈ</button>
+                <button id="key1">உ</button>
+                <button id="key1">ஊ</button>
+                <button id="key1">எ</button>
+                <button id="key1">ஏ</button>
+                <button id="key1">ஐ</button>
+                <button id="key1">ஒ</button>
+                <button id="key1">ஓ</button>
+                <button id="key1">ஔ</button>
+    
+                <button id="key1">ஃ</button>
+                <button id="backspace">Backspace</button>
+                
+            </div>
+            <br>
+            <div class="consonants" id="consonants">
+                <button id="key">க</button>
+                <button id="key">ங</button>
+                <button id="key">ச</button>
+                <button id="key">ஞ</button>
+                <button id="key">ட</button>
+                <button id="key">ண</button>
+                <button id="key">த</button>
+                <button id="key">ந</button>
+                <button id="key">ப</button>
+                <button id="key">ம</button>
+                <button id="key">ய</button>
+                <button id="key">ர</button>
+                <button id="key">ற</button>
+                <button id="key">ல</button>
+                <button id="key">ள</button>
+                <button id="key">ழ</button>
+                <button id="key">வ</button>
+                <button id="key">ன</button>
+                <button id="key">ஜ</button>
+                <button id="key">ஶ</button>
+                <button id="key">ஷ</button>
+                <button id="key">ஸ</button>
+                <button id="key">ஹ</button>
+                <button id="key">க்ஷ</button>
+                
+                
+            </div>
+            <br>
+            <div class="combitionation_charater" id="combination_charater">
+                <button id="combination_key">ா</button>
+                <button id="combination_key">ி</button>
+                <button id="combination_key">ீ</button>
+                <button id="combination_key">ு</button>
+                <button id="combination_key">ூ</button>
+                <button id="combination_key">ெ</button>
+                <button id="combination_key">ே</button>
+                <button id="combination_key">ை</button>
+                <button id="combination_key">ொ</button>
+                <button id="combination_key">ோ</button>
+                <button id="combination_key">ௌ</button>
+                <button id="combination_key">்</button> 
+                <br>
+                <button id="spacebar">Spacebar</button>
+            </div>
+    
+    </div>
+    <div class="display_history" id="display_history">
+        <form action="index.php" method="post"></form>
+        <table>
+            <span class="close_display" id="close_display">*</span>
+            <br>
+            <tr>
+                <th><h3>History</h3></th>
+            </tr>
+        </table>
+        <?php foreach($display as $displays):?>
+        <table>
+            <tr>
+                <td><?php echo $displays->inputs?></td>
+            </tr>
+        </table>
+        <?php endforeach; ?>
+    </div>
+
+
+    
+   
+        
+    
+</body>
+<script src="index.js"></script>
+</html>

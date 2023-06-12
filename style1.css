@@ -1,0 +1,38 @@
+img{
+    width: 36%;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+.heading{
+    color: green;
+}
+
+button a {
+    text-decoration: none;
+    color: green;
+    /* font-weight: 100; */
+    font-family: sans-serif;
+}
+
+button{
+    padding: 10px;
+    background-color: rgba(71, 164, 245, 0);
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    font-size: larger;
+}
+
+button:hover{   
+    box-shadow: 0px 8px 40px lightblue;
+}
+
+button:focus{
+    box-shadow: 0px 8px 40px lightblue;
+    background-color: rgba(10, 226, 46, 0.808);
+    color: black;
+}
