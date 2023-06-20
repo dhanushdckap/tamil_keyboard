@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $tamil = new PDO("mysql:host=localhost;dbname=tamil","root","nice");
+    $tamil = new PDO("mysql:host=localhost;dbname=tamil_keyboard","root","welcome");
 }
 catch(tamil $e){
     die($e->getMessage());
@@ -18,8 +18,6 @@ try{
     $insert2->execute();
 
     $display = $insert2->fetchAll($tamil::FETCH_OBJ);
-    
-    // var_dump($insert2->fetchall($tamil::FETCH_OBJ));
 
 }
 catch(information $e){

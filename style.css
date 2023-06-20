@@ -15,7 +15,7 @@
 }
 textarea{
     width: 90%;
-    height: 250px;
+    height: 23.9rem;
     /* padding-bottom: 15%; */
     font-size: x-large;
     background-color: rgba(71, 164, 245, 0);
@@ -105,9 +105,10 @@ th{
     color: red;
     border-color: tomato;
     position: absolute;
-    left: 95%;
-    top: 5%;
+    left: 90%;
+    top: 4%;
     font-size: xx-large;
+    width: 60px;
 }
 
 span{
