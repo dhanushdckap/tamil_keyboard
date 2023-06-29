@@ -3,7 +3,7 @@
 try{
     $tamil = new PDO("mysql:host=localhost;dbname=tamil_keyboard","root","welcome");
 }
-catch(tamil $e){
+catch(PDOException $e){
     die($e->getMessage());
 }
 
@@ -20,7 +20,7 @@ try{
     $display = $insert2->fetchAll($tamil::FETCH_OBJ);
 
 }
-catch(information $e){
+catch(PDOException $e){
     die($e->getMessage());
 }
 

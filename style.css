@@ -131,3 +131,43 @@ span:focus{
     background-color: rgba(10, 226, 197, 0.808);
     color: black;
 }
+
+@media only screen and (max-width: 767px) {
+    * {
+      margin: auto;
+      box-sizing: border-box;
+    }
+  
+    .container {
+      padding-top: 4%;
+      padding-bottom: 2%;
+    }
+  
+    textarea {
+      width: 100%;
+    }
+  
+    #enter,
+    #spacebar,
+    #backspace {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .display {
+      left: 92%;
+      top: 15%;
+    }
+  
+    .display_history {
+      top: 10%;
+      left: 10%;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      background-size: 30%;
+      height: 80%;
+      width: 80%;
+    }
+  }
